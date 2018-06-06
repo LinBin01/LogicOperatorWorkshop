@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         /* relational operators < <= > >= == !=
 
            logic operators && || !
@@ -19,17 +19,42 @@ public class Main {
         System.out.println("y = 1");
 
 
-        if(a == x && y + y == a){
+        if (a == x && y + y == a) {
             System.out.println("Bin");
         }
 
-        if(a == x || y + y == a){
+        if (a == x || y + y == a) {
             System.out.println("Lin");
         }
 
-        if(a != x && y + y == a){
+        if (a != x && y + y == a) {
             System.out.println("dummy Bin");
         }
 
+        if (a < b) {
+            // it will run
+            System.out.println("a < b");
+        }
+
+        if (y <= x) {
+            // it will run
+            System.out.println("y <= x");
+        } else {
+            System.out.println("y >= x");
+        }
+
+        if (b + a == x) {
+            System.out.println("b + a == x");
+        }
+        if (b * 2 >= x) {
+            System.out.println("2b >= x");
+        }
+        if (2 * a + b > x) {
+            System.out.println("2 * a + b > x");
+        }
+
+        if (x % b != y) {
+            System.out.println("x % b != y");
+        }
     }
 }
